@@ -35,3 +35,4 @@ class Cart:
             print(f"{index}. {item}")
 
         print(f"Total cost: {self.total_cost():.2f} $")
+        #If the cart is empty, print "The cart is empty".

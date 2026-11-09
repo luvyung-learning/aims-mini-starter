@@ -1,4 +1,4 @@
-# AIMS-mini
+# AIMS-mini (mọi câu trả lời trong lab nằm trong docs)
 
 Ứng dụng mẫu phục vụ thực hành Quản lý cấu hình phần mềm – IT3180.
 

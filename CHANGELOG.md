@@ -10,6 +10,18 @@ The format follows Keep a Changelog and the project uses Semantic Versioning.
 ### Fixed
 - Make search_by_title case-insensitive.
 - Add regression test for case-insensitive search.
+## [1.1.0] - 2026-11-nuchinnvernai
+
+### Added
+- Add search_by_category().
+- Add sort_by_title().
+- Add sort_by_cost().
+
+### Fixed
+- Improve cart management and search functionality.
+
+### Added
+- Add sort_by_title() and sort_by_cost() to Cart.
 
 ## [1.0.0] - 2026-11-njznverw
 

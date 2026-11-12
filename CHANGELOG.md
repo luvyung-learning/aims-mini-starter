@@ -6,6 +6,9 @@ The format follows Keep a Changelog and the project uses Semantic Versioning.
 
 ## [Unreleased]
 
+### Added
+- Add sort_by_title() and sort_by_cost() to Cart.
+
 ## [1.0.0] - 2026-11-njznverw
 
 ### Added

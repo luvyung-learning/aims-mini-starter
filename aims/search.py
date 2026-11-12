@@ -3,3 +3,9 @@ def search_by_title(items, keyword):
         dvd for dvd in items
         if keyword in dvd.title
     ]
+
+def search_by_category(items, category):
+    return [
+        dvd for dvd in items
+        if dvd.category == category
+    ]

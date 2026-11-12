@@ -20,6 +20,17 @@ class TestSearch(unittest.TestCase):
     def test_search_missing_title(self):
         result = search_by_title(self.items, "Harry Potter")
         self.assertEqual(len(result), 0)
+        
+    def test_search_by_title_case_insensitive(self):
+        items = [
+            DigitalVideoDisc("The Lion King"),
+            DigitalVideoDisc("Star Wars")
+        ]
+
+        result = search_by_title(items, "lion")
+
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0].title, "The Lion King")
 
     def test_search_by_category(self):
         items = [
